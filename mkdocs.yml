@@ -7,7 +7,9 @@ nav:
   - Introducing pre-commit.com: introducing-pre-commit-com.md
   - Using it: using-it.md
   - Using it - continued: using-it-2.md
+  - Using it - finishing: using-it-3.md
   - It benefits your python project: it-benefits-your-python-project.md
+  - That's all!: thanks.md
 theme:
   name: "material"
 markdown_extensions:

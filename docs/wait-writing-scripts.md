@@ -12,3 +12,4 @@
 ## Words of wisdom
 
 <blockquote style="font-size: 2rem"> There must a be a better way! <br/>– <cite>A wise man</cite> </blockquote>
+<!-- Raymond Hettinger -->
