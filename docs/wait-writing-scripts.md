@@ -7,7 +7,7 @@
 
 - You have to write them
 - ...or stackoverflow them
-- they aren't kept in your repo!
+- they aren't kept in your repository!
 
 ## Words of wisdom
 

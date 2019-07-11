@@ -3,7 +3,7 @@
 - linting
 - testing
 - building packages
-- building docker image
+- building docker images
 - deploying
 
 ## What it takes?
