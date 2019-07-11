@@ -9,10 +9,10 @@ pre-commit installed at .git/hooks/pre-commit
 
 ```bash
 $ pre-commit run -a
-Trim Trailing Whitespace.............................(no files to check)Skipped
-Fix End of Files.....................................(no files to check)Skipped
-Check Yaml...........................................(no files to check)Skipped
-Check for added large files..........................(no files to check)Skipped
+Trim Trailing Whitespace.................................................Passed
+Fix End of Files.........................................................Passed
+Check Yaml...............................................................Passed
+Check for added large files..............................................Passed
 ```
 
 ## It runs on every commit

@@ -4,6 +4,7 @@ In your project root directory.
 
 ```bash
 pre-commit sample-config > .pre-commit-config.yaml
+git commit -a .pre-commit-config.yaml
 ```
 
 ## Sample config
