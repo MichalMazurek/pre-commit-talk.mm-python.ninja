@@ -31,21 +31,21 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
     
     
       
-        <title>Pre-Commit in 5 minutes</title>
+        <title>Using it - continued - Pre-Commit in 5 minutes</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/application.0284f74d.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.0284f74d.css">
       
       
     
     
-      <script src="assets/javascripts/modernizr.74668098.js"></script>
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
     
     
       
@@ -54,7 +54,7 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
     
     
@@ -75,7 +75,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#pre-commit-in-5-minutes-or-less" tabindex="1" class="md-skip">
+      <a href="#hook-installation" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -84,7 +84,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="Pre-Commit in 5 minutes" class="md-header-nav__button md-logo">
+        <a href=".." title="Pre-Commit in 5 minutes" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -101,7 +101,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Introduction
+                Using it - continued
               
             </span>
           
@@ -154,7 +154,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="." title="Pre-Commit in 5 minutes" class="md-nav__button md-logo">
+    <a href=".." title="Pre-Commit in 5 minutes" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -163,6 +163,78 @@
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../what-are-the-git-hooks/" title="What are the git hooks?" class="md-nav__link">
+      What are the git hooks?
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../wait-writing-scripts/" title="Wait... writing scripts?" class="md-nav__link">
+      Wait... writing scripts?
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../why-i-need-it/" title="So why I need it?" class="md-nav__link">
+      So why I need it?
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../introducing-pre-commit-com/" title="Introducing pre-commit.com" class="md-nav__link">
+      Introducing pre-commit.com
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../using-it/" title="Using it" class="md-nav__link">
+      Using it
+    </a>
+  </li>
+
     
       
       
@@ -179,11 +251,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Introduction
+        Using it - continued
       </label>
     
-    <a href="." title="Introduction" class="md-nav__link md-nav__link--active">
-      Introduction
+    <a href="./" title="Using it - continued" class="md-nav__link md-nav__link--active">
+      Using it - continued
     </a>
     
       
@@ -197,8 +269,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-will-you-get-from-this" title="What will you get from this?" class="md-nav__link">
-    What will you get from this?
+  <a href="#running-it-on-your-files" title="Running it on your files" class="md-nav__link">
+    Running it on your files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#it-runs-on-every-commit" title="It runs on every commit" class="md-nav__link">
+    It runs on every commit
   </a>
   
 </li>
@@ -220,79 +299,7 @@
 
 
   <li class="md-nav__item">
-    <a href="what-are-the-git-hooks/" title="What are the git hooks?" class="md-nav__link">
-      What are the git hooks?
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="wait-writing-scripts/" title="Wait... writing scripts?" class="md-nav__link">
-      Wait... writing scripts?
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="why-i-need-it/" title="So why I need it?" class="md-nav__link">
-      So why I need it?
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="introducing-pre-commit-com/" title="Introducing pre-commit.com" class="md-nav__link">
-      Introducing pre-commit.com
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="using-it/" title="Using it" class="md-nav__link">
-      Using it
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="using-it-2/" title="Using it - continued" class="md-nav__link">
-      Using it - continued
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="using-it-3/" title="Using it - finishing" class="md-nav__link">
+    <a href="../using-it-3/" title="Using it - finishing" class="md-nav__link">
       Using it - finishing
     </a>
   </li>
@@ -304,7 +311,7 @@
 
 
   <li class="md-nav__item">
-    <a href="it-benefits-your-python-project/" title="It benefits your python project" class="md-nav__link">
+    <a href="../it-benefits-your-python-project/" title="It benefits your python project" class="md-nav__link">
       It benefits your python project
     </a>
   </li>
@@ -316,7 +323,7 @@
 
 
   <li class="md-nav__item">
-    <a href="thanks/" title="That's all!" class="md-nav__link">
+    <a href="../thanks/" title="That's all!" class="md-nav__link">
       That's all!
     </a>
   </li>
@@ -343,8 +350,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-will-you-get-from-this" title="What will you get from this?" class="md-nav__link">
-    What will you get from this?
+  <a href="#running-it-on-your-files" title="Running it on your files" class="md-nav__link">
+    Running it on your files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#it-runs-on-every-commit" title="It runs on every commit" class="md-nav__link">
+    It runs on every commit
   </a>
   
 </li>
@@ -366,14 +380,34 @@
               
                 
                 
-                <h1 id="pre-commit-in-5-minutes-or-less">Pre-Commit in 5 minutes or less</h1>
-<p><img src="./assets/git.png" width="50%"/></p>
-<h2 id="what-will-you-get-from-this">What will you get from this?</h2>
-<ul>
-<li>You will know what is a pre-commit hook in git.</li>
-<li>You will see why you should use them in python development.</li>
-<li>You will find out how to use them (the easy way).</li>
-</ul>
+                <h1 id="hook-installation">Hook installation</h1>
+<div class="codehilite"><pre><span></span>$ pre-commit install
+pre-commit installed at .git/hooks/pre-commit
+</pre></div>
+
+
+<h2 id="running-it-on-your-files">Running it on your files</h2>
+<div class="codehilite"><pre><span></span>$ pre-commit run -a
+Trim Trailing Whitespace.................................................Passed
+Fix End of Files.........................................................Passed
+Check Yaml...............................................................Passed
+Check <span class="k">for</span> added large files..............................................Passed
+</pre></div>
+
+
+<h2 id="it-runs-on-every-commit">It runs on every commit</h2>
+<div class="codehilite"><pre><span></span>$ git commit -a -m <span class="s2">&quot;first commit&quot;</span>
+Trim Trailing Whitespace.................................................Passed
+Fix End of Files.........................................................Failed
+hookid: end-of-file-fixer
+
+Files were modified by this hook. Additional output:
+
+Fixing Makefile
+
+Check Yaml...............................................................Passed
+Check <span class="k">for</span> added large files..............................................Passed
+</pre></div>
                 
                   
                 
@@ -394,14 +428,28 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
+          <a href="../using-it/" title="Using it" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Using it
+              </span>
+            </div>
+          </a>
         
-          <a href="what-are-the-git-hooks/" title="What are the git hooks?" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+        
+          <a href="../using-it-3/" title="Using it - finishing" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                What are the git hooks?
+                Using it - finishing
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -429,9 +477,9 @@
       
     </div>
     
-      <script src="assets/javascripts/application.245445c6.js"></script>
+      <script src="../assets/javascripts/application.245445c6.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
     
   </body>
