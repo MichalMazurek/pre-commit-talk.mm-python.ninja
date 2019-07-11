@@ -3,6 +3,7 @@
 ## Links
 
 - [https://pre-commit.com](https://pre-commit.com)
+- [This presentation: http://pre-commit-talk.mm-python.ninja/](http://pre-commit-talk.mm-python.ninja/)
 
 ## Author of this talk
 
