@@ -1,4 +1,8 @@
 site_name: Pre-Commit in 5 minutes
+site_author: Michal Mazurek
+site_description: How to use github pre-commit hooks in 5 minutes.
+repo_url: https://github.com/MichalMazurek/pre-commit-talk.mm-python.ninja
+copyright: Copyright © 2019 Michal Mazurek
 nav:
   - Introduction: index.md
   - What are the git hooks?: what-are-the-git-hooks.md
@@ -12,5 +16,12 @@ nav:
   - That's all!: thanks.md
 theme:
   name: "material"
+
 markdown_extensions:
   - codehilite
+  - admonition
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
