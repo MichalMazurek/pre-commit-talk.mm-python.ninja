@@ -17,6 +17,9 @@ nav:
 theme:
   name: "material"
 
+extra_javascript:
+  - assets/keyhandler.js
+
 markdown_extensions:
   - codehilite
   - admonition
