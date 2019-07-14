@@ -11,5 +11,5 @@
 
 ## Words of wisdom
 
-<blockquote style="font-size: 2rem"> There must a be a better way! <br/>– <cite>A wise man</cite> </blockquote>
+<blockquote style="font-size: 2rem"> There must a be a better way! <br/>– <cite>Raymond Hettinger</cite> </blockquote>
 <!-- Raymond Hettinger -->

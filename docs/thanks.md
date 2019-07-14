@@ -1,4 +1,4 @@
-# Do we have time for questions?
+# No time for questions :)
 
 ## Links
 
